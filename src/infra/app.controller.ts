@@ -3,7 +3,7 @@ import { PrismaService } from './prisma.service';
 
 import { randomUUID } from 'node:crypto';
 
-import { CreateNotificationBody } from './create-notifications-body';
+import { CreateNotificationBody } from '../create-notifications-body';
 
 @Controller('notifications')
 export class AppController {
